@@ -15,7 +15,7 @@ function Login() {
 
         try{
 
-            await axios.post("https://frontend2-ym1r.onrender.com/",{
+            await axios.post("https://backend-mswd.onrender.com",{
                 email,password
             })
             .then(res=>{
